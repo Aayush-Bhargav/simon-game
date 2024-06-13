@@ -57,7 +57,10 @@ let checkAnswer = (currentLevel) => {//function to match answer
             setTimeout(()=>{
                 $('body').removeClass('game-over');
             },300);
-            $('#currentScore').text(`Current Score:${level-1}`);//display current score
+            if(level==0)
+                $('#currentScore').text(`Current Score:${level}`);//display current score
+            else
+                $('#currentScore').text(`Current Score:${level-1}`);//display current score
             level=0;//reset the level
             $('#maxScore').text(`Max Score:${maxLevel}`);//display maximum score
             
