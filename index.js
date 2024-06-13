@@ -47,7 +47,7 @@ let checkAnswer = (currentLevel) => {//function to match answer
                 maxLevel=level-1;
             }
             console.log("Wrong Answer");
-            $('h1').text(`Game Over. Press Any Key to Restart.`);
+            $('h1').text(`Game Over. Press Any Key or Click Here to Restart.`);
             playSound('wrong');//play audio to indicate the game is over
             //reset the gamePattern and userPattern and level
             gamePattern=[];
@@ -61,8 +61,8 @@ let checkAnswer = (currentLevel) => {//function to match answer
                 $('#currentScore').text(`Current Score:${level}`);//display current score
             else
                 $('#currentScore').text(`Current Score:${level-1}`);//display current score
-            level=0;//reset the level
             $('#maxScore').text(`Max Score:${maxLevel}`);//display maximum score
+            level=0;//reset the level
             
            }
         else {
@@ -92,6 +92,15 @@ let addEffectToChosenButton = (chosenBtn) => {//function to play sound correspon
 // console.log(randomColor);
 
 $(document).on('keypress', () => {
+
+    if (level === 0) {//means either the game has not started yet or it is waiting to be restarted
+        $('#currentScore').text(`Current Score:${level}`);//display current score
+        nextSequence(); //stores the most recently generated color
+    }
+
+});
+
+$('h1').on('click', () => {
 
     if (level === 0) {//means either the game has not started yet or it is waiting to be restarted
         $('#currentScore').text(`Current Score:${level}`);//display current score
