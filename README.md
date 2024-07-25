@@ -10,16 +10,16 @@ I created the simple version of the Simon Game that has:
 
 Along with this, I display the current score of the player and the maximum score as well.
 
-1)HTML Structure:
+- HTML Structure:
     A div that displays current score and max score.
     A header that displays the level and a game over message when the player' sequence doesn't match the game sequence.
     Four buttons for the game, each representing a color.
 
-2)CSS Styling:
+- CSS Styling:
     Basic styles to center the content and style the buttons.
     .pressed class to create a visual effect when buttons are pressed.
 
-3)JavaScript Logic:
+- JavaScript Logic:
     Functions to start the game, generate the sequence, animate buttons, play sounds, handle button clicks, and check user input.
     Event listeners to handle button clicks and start the game.
 
