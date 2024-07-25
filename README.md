@@ -28,4 +28,6 @@ Along with this, I display the current score of the player and the maximum score
 
 Or
 
-- **git clone https://github.com/Aayush-Bhargav/simon-game.git** and right click and open with live server.
+- **git clone https://github.com/Aayush-Bhargav/simon-game.git**
+- cd to **index.html**
+- right click and **open with live server**
