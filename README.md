@@ -23,11 +23,17 @@ Along with this, I display the current score of the player and the maximum score
     Functions to start the game, generate the sequence, animate buttons, play sounds, handle button clicks, and check user input.
     Event listeners to handle button clicks and start the game.
 
-## Install
+## View
 - To view the project, click on this link: **https://aayush-bhargav.github.io/simon-game/**
 
-Or
-
-- **git clone https://github.com/Aayush-Bhargav/simon-game.git**
-- cd to **index.html**
+## Install
+Clone the repo using
+```
+**git clone https://github.com/Aayush-Bhargav/simon-game.git**
+```
+Go to the correct directory using:
+```
+cd simon-game
+```
+- go to **index.html**
 - right click and **open with live server**
