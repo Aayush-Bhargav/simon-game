@@ -29,7 +29,7 @@ Along with this, I display the current score of the player and the maximum score
 ## Install
 Clone the repo using
 ```
-**git clone https://github.com/Aayush-Bhargav/simon-game.git**
+git clone https://github.com/Aayush-Bhargav/simon-game.git
 ```
 Go to the correct directory using:
 ```
