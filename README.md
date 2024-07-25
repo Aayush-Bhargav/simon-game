@@ -24,8 +24,8 @@ Along with this, I display the current score of the player and the maximum score
     Event listeners to handle button clicks and start the game.
 
 ## Install
-*To view the project, click on this link:https://aayush-bhargav.github.io/simon-game/
+- To view the project, click on this link: **https://aayush-bhargav.github.io/simon-game/**
 
 Or
 
-*git clone https://github.com/Aayush-Bhargav/simon-game.git and right click and open with live server.
+- **git clone https://github.com/Aayush-Bhargav/simon-game.git** and right click and open with live server.
